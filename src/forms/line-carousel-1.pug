@@ -46,7 +46,7 @@ block form
         li.nav-item: button.nav-link(type="button", @click="vcard.page = 'setting'", :class="{active: (vcard.page === 'setting')}") 設定
         li.nav-item(v-for="cardIdx in cardsLen")
           button.nav-link(type="button", @click="vcard.page = cardIdx-1", :class="{active: (vcard.page === cardIdx-1)}") {{ circleNum[cardIdx-1] }}
-        li.nav-item(v-if="cardsLen < 12"): button.nav-link(type="button", @click="btnNewCard") #[i.fa.fa-plus-circle] 新卡片
+        li.nav-item(v-if="cardsLen < 30"): button.nav-link(type="button", @click="btnNewCard") #[i.fa.fa-plus-circle] 新卡片
     .card-body(v-if="vcard.page === 'setting'")
       .form-group.was-validated.mb-2
         label(for="vcard-altText") 替代文字
