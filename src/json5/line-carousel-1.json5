@@ -33,7 +33,7 @@
       desc: '來自 LINE 的樣板，最多 12 張卡片，很適合用來製作廣告傳單。',
       descColor: '#000000',
       image: 'https://i.imgur.com/0pbirUY.png',
-      link: 'https://taichunmin.idv.tw/liff-businesscard/forms/line-carousel-1.html',
+      link: 'https://wallecechen.github.io/liff-businesscard/forms/line-carousel-1.html',
       title: '多頁訊息 1',
       titleColor: '#000000',
       btns: [
